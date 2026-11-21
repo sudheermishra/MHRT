@@ -1,0 +1,956 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      MHRT — The First Social Media Platform Built For Real Connection
+    </title>
+    <meta
+      name="description"
+      content="A supportive community focused on mental health, wellness, and authentic human connection. Share your journey and find people who care." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" defer />
+  </head>
+  <body>
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="brand-logo" aria-label="MHRT Home">
+          <img
+            src="assets/images/logo.svg"
+            alt="MHRT — More Than Social"
+            class="logo-img" />
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-item-dropdown">
+              <a href="#discover" class="nav-link">
+                Discover MHRT
+                <svg class="dropdown-chevron" viewBox="0 0 10 6" fill="none">
+                  <path
+                    d="M1 1L5 5L9 1"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item-dropdown">
+              <a href="#community" class="nav-link">
+                Community
+                <svg class="dropdown-chevron" viewBox="0 0 10 6" fill="none">
+                  <path
+                    d="M1 1L5 5L9 1"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item-dropdown">
+              <a href="#events" class="nav-link">
+                Create
+                <svg class="dropdown-chevron" viewBox="0 0 10 6" fill="none">
+                  <path
+                    d="M1 1L5 5L9 1"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item-dropdown">
+              <a href="#resources" class="nav-link">
+                Buisness Hub
+                <svg class="dropdown-chevron" viewBox="0 0 10 6" fill="none">
+                  <path
+                    d="M1 1L5 5L9 1"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item-dropdown">
+              <a href="#support" class="nav-link">
+                Support
+                <svg class="dropdown-chevron" viewBox="0 0 10 6" fill="none">
+                  <path
+                    d="M1 1L5 5L9 1"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <div class="mobile-menu-footer">
+            <a
+              href="#join"
+              class="btn btn-primary btn-mobile-join"
+              onclick="
+                document.getElementById('navMenu').classList.remove('open');
+                document
+                  .getElementById('mobileToggle')
+                  .classList.remove('active');
+              ">
+              <span>Join Now</span>
+              <span class="btn-icon">
+                <svg viewBox="0 0 12 12" fill="none">
+                  <path
+                    d="M4.5 2.5L8 6L4.5 9.5"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#join" class="btn btn-primary btn-join">
+            <span>Join Now</span>
+            <span class="btn-icon">
+              <svg viewBox="0 0 12 12" fill="none">
+                <path
+                  d="M4.5 2.5L8 6L4.5 9.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+          <button
+            class="mobile-toggle"
+            id="mobileToggle"
+            aria-label="Toggle navigation menu"
+            onclick="
+              document.getElementById('navMenu').classList.toggle('open');
+              this.classList.toggle('active');
+            ">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <div class="pill-badge">
+              <span>A Safe Place</span>
+            </div>
+
+            <h1 class="hero-title">
+              The First Social Media <br class="desktop-break" />
+              Platform
+              <span class="highlight-purple"
+                >Built For Real <br class="desktop-break" />Connection</span
+              >
+            </h1>
+
+            <div class="purple-bar"></div>
+
+            <p class="hero-tagline">Real talk. Real connection. Real you.</p>
+
+            <div class="hero-description">
+              <p class="desc-emphasis">
+                More Than Social — A Place Where You Matter.
+              </p>
+              <p>
+                At MHRT, it's all about YOU... your mental well-being, everyday
+                feelings and growth.
+              </p>
+              <p>
+                Share your journey, find healing, and connect with people who
+                care.
+              </p>
+            </div>
+
+            <div class="hero-callout">
+              <div class="callout-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <circle
+                    cx="12"
+                    cy="8"
+                    r="4"
+                    stroke="#562882"
+                    stroke-width="1.8" />
+                  <path
+                    d="M4 20C4 16.5 7.5 14 12 14C16.5 14 20 16.5 20 20"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round" />
+                  <path
+                    d="M19 8C20.5 8 22 9.5 22 11C22 13 19.5 15 18 16"
+                    stroke="#8951BA"
+                    stroke-width="1.5"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <p class="callout-text">
+                A supportive community where you can grow, heal, and belong.
+              </p>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#join" class="btn btn-primary">
+                <span>Join The Community</span>
+                <span class="btn-icon">
+                  <svg viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M4.5 2.5L8 6L4.5 9.5"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </a>
+              <a href="#learn-more" class="btn btn-secondary">
+                <span>Learn More</span>
+                <span class="arrow-up-right">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-wrapper">
+              <div class="orbit-circle ring-outer"></div>
+              <div class="orbit-circle ring-inner"></div>
+              <div class="visual-glow"></div>
+              <img
+                src="assets/images/hero_woman.png"
+                alt="MHRT Community Member"
+                class="hero-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="different-section" id="discover">
+        <div class="container">
+          <div class="section-header text-center">
+            <div class="pill-badge mx-auto">
+              <span>Difference</span>
+            </div>
+            <h2 class="section-title">
+              What Makes <span class="highlight-purple">MHRT</span> Different
+            </h2>
+            <p class="section-subtitle">
+              We're more than a platform - we're a community
+              <br class="desktop-break" />
+              built around connection, growth, and real conversations.
+            </p>
+          </div>
+
+          <div class="featured-media-card">
+            <img
+              src="assets/images/group_support.png"
+              alt="MHRT Community Support Group"
+              class="group-img" />
+          </div>
+
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="card-icon-wrap">
+                <svg viewBox="0 0 32 32" fill="none" class="feature-svg">
+                  <circle cx="16" cy="16" r="14" fill="#F4EEFC" />
+                  <path
+                    d="M11 19V14C11 11.2 13.2 9 16 9C18.8 9 21 11.2 21 14V19"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round" />
+                  <path
+                    d="M9 19H23"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round" />
+                  <path
+                    d="M13 22H19"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round" />
+                  <circle cx="16" cy="14" r="2" fill="#562882" />
+                  <path
+                    d="M22 10L24 8M8 10L10 8"
+                    stroke="#8951BA"
+                    stroke-width="1.4"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3 class="card-title">Your Community Feed</h3>
+              <p class="card-text">
+                Share thoughts, photos, and videos with people who truly
+                understand.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="card-icon-wrap">
+                <svg viewBox="0 0 32 32" fill="none" class="feature-svg">
+                  <circle cx="16" cy="16" r="14" fill="#F4EEFC" />
+                  <path
+                    d="M10 17L14 13C15 12 17 12 18 13L22 17"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M12 19L14 21C15 22 17 22 18 21L20 19"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M16 8C17 8 18 9 18 10C18 11.5 16 13 16 13C16 13 14 11.5 14 10C14 9 15 8 16 8Z"
+                    fill="#8951BA" />
+                </svg>
+              </div>
+              <h3 class="card-title">Support Circles</h3>
+              <p class="card-text">
+                Join groups that encourage connection, accountability, &
+                belonging.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="card-icon-wrap">
+                <svg viewBox="0 0 32 32" fill="none" class="feature-svg">
+                  <circle cx="16" cy="16" r="14" fill="#F4EEFC" />
+                  <path
+                    d="M16 9C13.2 9 11 11.2 11 14C11 15.8 12 17.3 13.5 18.2V20C13.5 20.6 13.9 21 14.5 21H17.5C18.1 21 18.5 20.6 18.5 20V18.2C20 17.3 21 15.8 21 14C21 11.2 18.8 9 16 9Z"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M14 23H18"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round" />
+                  <path
+                    d="M16 6V7M22 8L21 9M10 8L11 9"
+                    stroke="#8951BA"
+                    stroke-width="1.5"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3 class="card-title">Insights & Guides</h3>
+              <p class="card-text">
+                Explore expert advice, personal stories, and tools for growth.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="card-icon-wrap">
+                <svg viewBox="0 0 32 32" fill="none" class="feature-svg">
+                  <circle cx="16" cy="16" r="14" fill="#F4EEFC" />
+                  <circle
+                    cx="16"
+                    cy="16"
+                    r="5"
+                    stroke="#562882"
+                    stroke-width="1.8" />
+                  <path
+                    d="M16 7V10M16 22V25M7 16H10M22 16H25"
+                    stroke="#562882"
+                    stroke-width="1.8"
+                    stroke-linecap="round" />
+                  <path
+                    d="M10 10L12 12M20 20L22 22M22 10L20 12M10 20L12 18"
+                    stroke="#8951BA"
+                    stroke-width="1.4"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3 class="card-title">Keys to a Better Life</h3>
+              <p class="card-text">
+                Discover content focused on wellness, relationships, finances,
+                and purpose.
+              </p>
+            </div>
+          </div>
+
+          <div class="section-cta text-center">
+            <p class="cta-statement">
+              Real people. Real stories. Real connection.
+            </p>
+            <a href="#join" class="btn btn-primary mx-auto">
+              <span>Join The Community</span>
+              <span class="btn-icon">
+                <svg viewBox="0 0 12 12" fill="none">
+                  <path
+                    d="M4.5 2.5L8 6L4.5 9.5"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="pillars-section" id="community">
+        <div class="container">
+          <div class="section-header text-center">
+            <div class="pill-badge mx-auto">
+              <span>Fundamentals</span>
+            </div>
+            <h2 class="section-title">
+              The Core Elements of a
+              <span class="highlight-purple">Better Life</span>
+            </h2>
+            <div class="purple-bar mx-auto"></div>
+            <p class="section-subtitle">
+              At MHRT, we focus on the core pillars that matter most —
+              <br class="desktop-break" />
+              helping you grow, connect and feel supported.
+            </p>
+          </div>
+
+          <div class="pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-media">
+                <img
+                  src="assets/images/pillar_mental.jpeg"
+                  alt="Mental and Emotional Health"
+                  class="pillar-img" />
+                <div class="pillar-badge">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 4C9 4 7 6 7 9C7 11 8 12.5 9 13.5V16C9 16.5 9.5 17 10 17H14C14.5 17 15 16.5 15 16V13.5C16 12.5 17 11 17 9C17 6 15 4 12 4Z"
+                      stroke="#562882"
+                      stroke-width="1.6" />
+                    <path
+                      d="M10 19H14"
+                      stroke="#562882"
+                      stroke-width="1.6"
+                      stroke-linecap="round" />
+                  </svg>
+                </div>
+              </div>
+              <div class="pillar-body">
+                <h3 class="pillar-title">Mental & Emotional Health</h3>
+                <p class="pillar-desc">
+                  Support, encouragement, and conversations that help you thrive
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-media">
+                <img
+                  src="assets/images/pillar_relation.jpeg"
+                  alt="Relationships and Connection"
+                  class="pillar-img" />
+                <div class="pillar-badge">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M16 11C17.65 11 19 9.65 19 8C19 6.35 17.65 5 16 5C14.35 5 13 6.35 13 8C13 9.65 14.35 11 16 11Z"
+                      stroke="#562882"
+                      stroke-width="1.6" />
+                    <path
+                      d="M8 11C9.65 11 11 9.65 11 8C11 6.35 9.65 5 8 5C6.35 5 5 6.35 5 8C5 9.65 6.35 11 8 11Z"
+                      stroke="#562882"
+                      stroke-width="1.6" />
+                    <path
+                      d="M8 14C5.5 14 3 15.5 3 18V19H13V18C13 15.5 10.5 14 8 14Z"
+                      stroke="#562882"
+                      stroke-width="1.6" />
+                    <path
+                      d="M16 14C15.3 14 14.5 14.2 13.9 14.5C14.6 15.4 15 16.6 15 18V19H21V18C21 15.5 18.5 14 16 14Z"
+                      stroke="#562882"
+                      stroke-width="1.6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="pillar-body">
+                <h3 class="pillar-title">Relationships & Connection</h3>
+                <p class="pillar-desc">
+                  Build meaningful relationships and stronger connections.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-media">
+                <img
+                  src="assets/images/pillar_physical.jpeg"
+                  alt="Physical Health and Wellness"
+                  class="pillar-img" />
+                <div class="pillar-badge">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <circle
+                      cx="12"
+                      cy="5"
+                      r="2.5"
+                      stroke="#562882"
+                      stroke-width="1.6" />
+                    <path
+                      d="M12 8V14M12 14L9 19M12 14L15 19M7 11L12 9.5L17 11"
+                      stroke="#562882"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </div>
+              <div class="pillar-body">
+                <h3 class="pillar-title">Physical Health & Wellness</h3>
+                <p class="pillar-desc">
+                  Stay motivated through fitness, wellness, and healthy habits.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-media">
+                <img
+                  src="assets/images/pillar_finance.jpeg"
+                  alt="Finance and Stability"
+                  class="pillar-img" />
+                <div class="pillar-badge">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <rect
+                      x="3"
+                      y="6"
+                      width="18"
+                      height="13"
+                      rx="2.5"
+                      stroke="#562882"
+                      stroke-width="1.6" />
+                    <path d="M3 10H21" stroke="#562882" stroke-width="1.6" />
+                    <circle cx="16" cy="14.5" r="1.5" fill="#562882" />
+                  </svg>
+                </div>
+              </div>
+              <div class="pillar-body">
+                <h3 class="pillar-title">Finance & Stability</h3>
+                <p class="pillar-desc">
+                  Explore tips, strategies, & conversations around financial
+                  wellness.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-cta text-center">
+            <a href="#categories" class="btn btn-primary mx-auto">
+              <span>Explore All Categories</span>
+              <span class="btn-icon">
+                <svg viewBox="0 0 12 12" fill="none">
+                  <path
+                    d="M4.5 2.5L8 6L4.5 9.5"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="app-section" id="resources">
+        <div class="container app-container">
+          <div class="app-visual">
+            <div class="app-image-wrapper">
+              <div class="app-backdrop-glow"></div>
+              <img
+                src="assets/images/app_mockup.png"
+                alt="MHRT iOS and Android Mobile App"
+                class="mockup-img" />
+            </div>
+
+            <!-- Store Badges -->
+            <div class="store-badges-row">
+              <a
+                href="#app-store"
+                class="store-badge-link"
+                aria-label="Download on App Store">
+                <img
+                  src="assets/images/app-store.svg"
+                  alt="App Store"
+                  class="store-badge" />
+              </a>
+              <a
+                href="#google-play"
+                class="store-badge-link"
+                aria-label="Get it on Google Play">
+                <img
+                  src="assets/images/google-play.svg"
+                  alt="Google Play"
+                  class="store-badge" />
+              </a>
+            </div>
+            <p class="store-caption">Coming Soon To iOS And Android</p>
+          </div>
+
+          <div class="app-content">
+            <div class="pill-badge">
+              <svg class="badge-icon" viewBox="0 0 16 16" fill="none">
+                <rect
+                  x="4.5"
+                  y="2"
+                  width="7"
+                  height="12"
+                  rx="1.5"
+                  stroke="#562882"
+                  stroke-width="1.4" />
+                <circle cx="8" cy="11.5" r="0.75" fill="#562882" />
+              </svg>
+              <span>App</span>
+            </div>
+
+            <h2 class="app-title">
+              Get Ready For <br class="desktop-break" />
+              Real Talk <span class="highlight-purple">On-the-Go</span>
+            </h2>
+
+            <p class="app-version">The MHRT App &mdash; Coming Soon</p>
+
+            <p class="app-tagline">
+              Real talk, Real connection, Real you.
+              <br class="desktop-break" />Stay connected, supported, and
+              inspired -anytime,anywhere.
+            </p>
+
+            <div class="app-benefits">
+              <h4 class="benefits-title">Why You'll Love the App:</h4>
+              <ul class="benefits-list">
+                <li>
+                  <span class="check-bullet">
+                    <svg viewBox="0 0 12 12" fill="none">
+                      <path
+                        d="M2.5 6.2L4.8 8.5L9.5 3.5"
+                        stroke="#FFFFFF"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span>Watch & share real stories</span>
+                </li>
+                <li>
+                  <span class="check-bullet">
+                    <svg viewBox="0 0 12 12" fill="none">
+                      <path
+                        d="M2.5 6.2L4.8 8.5L9.5 3.5"
+                        stroke="#FFFFFF"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span>Join groups & conversations instantly</span>
+                </li>
+                <li>
+                  <span class="check-bullet">
+                    <svg viewBox="0 0 12 12" fill="none">
+                      <path
+                        d="M2.5 6.2L4.8 8.5L9.5 3.5"
+                        stroke="#FFFFFF"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span>Access your safe space 24/7</span>
+                </li>
+              </ul>
+            </div>
+
+            <a href="#notify" class="btn btn-primary btn-notify">
+              <span>Notify Me</span>
+              <span class="btn-icon">
+                <svg viewBox="0 0 12 12" fill="none">
+                  <path
+                    d="M4.5 2.5L8 6L4.5 9.5"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="support-banner-section" id="support">
+        <div class="support-banner">
+          <div class="container banner-inner">
+            <div class="banner-content">
+              <div class="banner-eyebrow">
+                <svg viewBox="0 0 16 16" fill="none">
+                  <path
+                    d="M8 14C8 14 1.5 10.2 1.5 5.8C1.5 3.8 3 2.4 4.8 2.4C6.1 2.4 7.2 3.1 8 4.2C8.8 3.1 9.9 2.4 11.2 2.4C13 2.4 14.5 3.8 14.5 5.8C14.5 10.2 8 14 8 14Z"
+                    stroke="#FFFFFF"
+                    stroke-width="1.3"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M8 10.2C8 10.2 5.4 8.6 5.4 7C5.4 6.2 6 5.7 6.7 5.7C7.3 5.7 7.8 6 8 6.5C8.2 6 8.7 5.7 9.3 5.7C10 5.7 10.6 6.2 10.6 7C10.6 8.6 8 10.2 8 10.2Z"
+                    fill="#FFFFFF" />
+                </svg>
+                <span>A Safe Place</span>
+              </div>
+
+              <h2 class="banner-title">
+                You Don't Have to <br class="desktop-break" />
+                Face Life Alone
+              </h2>
+
+              <p class="banner-desc">
+                Join MHRT and become part of a community that understands.
+                <br class="desktop-break" />
+                Keep the supporting text concise and emotionally focused.
+              </p>
+
+              <a href="#join" class="btn btn-primary btn-banner">
+                <span>Join The Community</span>
+                <span class="btn-icon">
+                  <svg viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M4.5 2.5L8 6L4.5 9.5"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+
+            <div class="banner-image-wrap">
+              <img
+                src="assets/images/banner_women.png"
+                alt="Two women supporting each other"
+                class="banner-photo" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div class="footer-grid">
+          <div class="footer-brand-col">
+            <a href="#" class="footer-logo">
+              <img
+                src="assets/images/logo-white.svg"
+                alt="MHRT — More Than Social"
+                class="footer-logo-img" />
+            </a>
+
+            <div class="footer-slogan-wrap">
+              <span class="footer-slogan"
+                >Real Talk. Real Connection. Real You</span
+              >
+              <img
+                src="assets/images/swoosh.svg"
+                alt=""
+                class="footer-swoosh" />
+            </div>
+
+            <p class="footer-about">
+              A community focused on connection, support, wellness and personal
+              growth. You don't have to face life alone.
+            </p>
+
+            <div class="footer-socials">
+              <a href="#facebook" class="social-btn" aria-label="Facebook">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
+              <a href="#instagram" class="social-btn" aria-label="Instagram">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="#linkedin" class="social-btn" aria-label="LinkedIn">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="2" r="2"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">
+              <span class="col-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M12 21s-8-4.9-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.1-8 11-8 11z" />
+                  <circle cx="9.5" cy="9.5" r="1.1" />
+                  <circle cx="12" cy="8.5" r="1.1" />
+                  <circle cx="14.5" cy="9.5" r="1.1" />
+                  <path d="M9 13.2c.8-.9 1.8-1.2 3-1.2s2.2.3 3 1.2" />
+                </svg>
+              </span>
+              Community
+            </h4>
+            <ul class="footer-links">
+              <li><a href="#feed">Community Feed</a></li>
+              <li><a href="#circles">Support Circles</a></li>
+              <li><a href="#groups">Groups</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#talk-tuesday">Talk Tuesday</a></li>
+              <li><a href="#story">Share Your Story</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">
+              <span class="col-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" />
+                  <path
+                    d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z" />
+                  <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4" />
+                </svg>
+              </span>
+              Wellness Topics
+            </h4>
+            <ul class="footer-links">
+              <li><a href="#mental">Mental &amp; Emotional Health</a></li>
+              <li>
+                <a href="#relationships"
+                  >Relationships &amp; Social Connections</a
+                >
+              </li>
+              <li><a href="#fitness">Physical Health &amp; Fitness</a></li>
+              <li><a href="#nutrition">Food &amp; Nutrition</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">
+              <span class="col-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </span>
+              Lifestyle Topics
+            </h4>
+            <ul class="footer-links">
+              <li><a href="#stress">Stress &amp; Mindfulness</a></li>
+              <li><a href="#finance">Finances &amp; Stability</a></li>
+              <li><a href="#pets">Pets &amp; Emotional Support</a></li>
+              <li><a href="#travel">Vacations &amp; Travel</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">
+              <span class="col-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="m4.93 4.93 4.24 4.24" />
+                  <path d="m14.83 9.17 4.24-4.24" />
+                  <path d="m14.83 14.83 4.24 4.24" />
+                  <path d="m9.17 14.83-4.24 4.24" />
+                </svg>
+              </span>
+              Support
+            </h4>
+            <ul class="footer-links">
+              <li><a href="#resources">Resources</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#crisis">Crisis Support</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#privacy">Privacy Policy</a></li>
+              <li><a href="#terms">Terms of Use</a></li>
+              <li><a href="#cookie">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright-text">
+            Copyright &copy; MHRT 2026 All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

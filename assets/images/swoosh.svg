@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 12" fill="none">
+  <path d="M2 6C35 2 95 1 178 7C140 10 70 11 2 6Z" fill="url(#swoosh-grad)" opacity="0.85"/>
+  <defs>
+    <linearGradient id="swoosh-grad" x1="2" y1="6" x2="178" y2="6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B42BC" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#9D65E5" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#6B32AA" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+</svg>
